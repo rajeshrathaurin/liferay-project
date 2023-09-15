@@ -1,0 +1,10 @@
+Bundle-Name: adj-admin-api
+Bundle-SymbolicName: adj.admin.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	adj.admin.exception,\
+	adj.admin.model,\
+	adj.admin.service,\
+	adj.admin.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../adj-admin-service/service.xml

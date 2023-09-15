@@ -1,0 +1,8 @@
+Bundle-Name: adj-admin-web
+Bundle-SymbolicName: adj.admin.web
+Bundle-Version: 1.0.0
+Export-Package: \
+	adj.admin.web.constants,\
+	adj.admin.web.util
+
+

@@ -1,0 +1,16 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.0"	
+	// https://mvnrepository.com/artifact/org.apache.tika/tika-core
+	implementation group: 'org.apache.tika', name: 'tika-core', version: '2.8.0'
+    
+	compileOnly group: "com.liferay", name: "com.liferay.document.library.service", version: "2.0.0"
+	compileOnly group: "com.liferay", name: "com.liferay.document.library.api", version: "3.2.2"
+	
+	implementation group: 'com.liferay', name: 'com.liferay.document.library.web', version: '6.0.150'
+	
+    
+	
+	
+	
+}

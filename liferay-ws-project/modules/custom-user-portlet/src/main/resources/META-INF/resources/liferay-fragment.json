@@ -1,0 +1,16 @@
+{
+    "name": "Custom User List Fragment",
+    "description": "Adds a custom column to the User List",
+    "category": "User List",
+    "cssClass": "custom-user-list-fragment",
+    "resources": {
+        "user-list": {
+            "sections": {
+                "items": {
+                    "selectors": ["._com_liferay_users_admin_web_portlet_UsersAdminPortlet"],
+                    "fragments": ["custom-user-list-fragment"]
+                }
+            }
+        }
+    }
+}

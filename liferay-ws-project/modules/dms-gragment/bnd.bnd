@@ -1,0 +1,5 @@
+Bundle-Name: dms-gragment
+Bundle-SymbolicName: dms.gragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.document.library.web;bundle-version="6.0.148"
+Portal-Bundle-Version: 7.4.13

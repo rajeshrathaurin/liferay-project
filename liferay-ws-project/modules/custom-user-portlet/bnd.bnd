@@ -1,0 +1,4 @@
+Bundle-Name: custom-user-portlet
+Bundle-SymbolicName: custom.user.portlet
+Bundle-Version: 1.0.0
+Export-Package: custom.user.portlet.constants
